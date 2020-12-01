@@ -179,7 +179,7 @@ function Connect-ArubaSW {
             Write-Host "Welcome on"$switchsystem.name"-"$product_name
 
         }
-
+        $connection.name = $switchsystem.name
         #Return connection info
         $connection
     }
